@@ -258,12 +258,12 @@ section {
  display:block;
 	display: inline-block;
 	position: relative;
- background:transparent url('../images/fban2_circle.jpg') center top no-repeat;
+ background:transparent url('../images/fban2_circle.JPG') center top no-repeat;
  background-size: 370px;
 }
 
 .joshi:hover {
-   background-image: url('../images/fban2_circle.jpg');
+   background-image: url('../images/fban2_circle.JPG');
 }
 
 .hover-effect i {
