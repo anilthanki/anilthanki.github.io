@@ -1,0 +1,61 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+
+      <script language="JavaScript" type="text/javascript" src="resources/dependencies/jquery/jquery-1.6.4.js"></script>
+      <script language="JavaScript" type="text/javascript" src="resources/dependencies/jquery/jquery-ui-1.8.2.custom.min.js"></script>
+      <script language="JavaScript" type="text/javascript" src="resources/dependencies/d3.v2.min.js"></script>
+      <script language="JavaScript" type="text/javascript" src="resources/dependencies/jquery/jquery.tooltip.js"></script>
+      <script language="JavaScript" type="text/javascript" src="dependencies/graphics/raphael-2.1.2.js"></script>
+      <script language="JavaScript" type="text/javascript" src="resources/Biojs.js"></script>
+      <script language="JavaScript" type="text/javascript" src="Biojs.wigExplorer.js"></script>
+
+
+      <link rel="stylesheet" href="biojs.wigExplorer.css"/>
+      <link rel="stylesheet" href="resources/dependencies/jquery/jquery-ui-1.8.2.css"/>
+      <link rel="stylesheet" href="resources/dependencies/jquery/jquery.tooltip.css"/>
+
+<script language="JavaScript" type="text/javascript">
+        var instance;
+        window.onload = function () {
+            instance = new Biojs.wigExplorer({
+                  target: "holder",
+                  selectionBackgroundColor: 'red',
+                  dataSet: "data/wigExplorerDataSet.txt"
+              });
+
+            
+             instance = new Biojs.wigExplorer({
+                  target: "holder3",
+                  selectionBackgroundColor: '#99FF00',
+                  dataSet: "data/wigExplorerDataSet3.txt"
+              });
+
+             instance = new Biojs.wigExplorer({
+                  target: "holder4",
+                  selectionBackgroundColor: 'yellow',
+                  dataSet: "data/wigExplorerDataSet4.txt"
+              });
+
+             instance = new Biojs.wigExplorer({
+                  target: "holder5",
+                  selectionBackgroundColor: 'silver',
+                  dataSet: "data/wigExplorerDataSet5.txt"
+              });
+        };
+
+</script>
+
+
+</head>
+<body>
+	<div id="holder" class=holder> </div>
+	<div id="holder2" class=holder> </div>
+	<div id="holder3" class=holder> </div>
+	<div id="holder4" class=holder> </div>
+	<div id="holder5" class=holder> </div>
+	<div id="log"> </div>
+</body>
+</html>
+
