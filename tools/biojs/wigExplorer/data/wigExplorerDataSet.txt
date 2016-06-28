@@ -21,7 +21,6 @@ variableStep chrom=chr1
 200	86
 210	85
 220	77
-variableStep chrom=chr1
 230	81
 240	86
 250	81
@@ -78,7 +77,6 @@ variableStep chrom=chr1
 760	130
 770	130
 780	133
-variableStep chrom=chr1
 790	126
 800	130
 810	127
@@ -129,7 +127,6 @@ variableStep chrom=chr1
 1260	94
 1270	90
 1280	97
-variableStep chrom=chr1
 1290	95
 1300	95
 1310	94
@@ -143,7 +140,6 @@ variableStep chrom=chr1
 1390	121
 1400	116
 1410	112
-variableStep chrom=chr2
 1420	118
 1430	138
 1440	143
@@ -165,7 +161,6 @@ variableStep chrom=chr2
 1600	106
 1610	109
 1620	120
-variableStep chrom=chr2
 1630	128
 1640	133
 1650	137
@@ -216,7 +211,6 @@ variableStep chrom=chr2
 3190	158
 3200	156
 3210	149
-variableStep chrom=chr2
 3220	151
 3230	153
 3240	145
@@ -272,7 +266,6 @@ variableStep chrom=chr2
 3740	135
 3750	135
 3760	132
-variableStep chrom=chr2
 3770	136
 3780	137
 3790	137
@@ -306,7 +299,6 @@ variableStep chrom=chr2
 4070	146
 4080	144
 4090	139
-variableStep chrom=chr2
 4100	142
 4110	142
 4120	135
@@ -372,7 +364,6 @@ variableStep chrom=chr2
 4720	112
 4730	123
 4740	122
-variableStep chrom=chr2
 4750	125
 4760	120
 4770	120
@@ -446,7 +437,6 @@ variableStep chrom=chr2
 5450	110
 5460	102
 5470	100
-variableStep chrom=chr3
 5480	103
 5490	104
 5500	98
@@ -568,7 +558,6 @@ variableStep chrom=chr3
 10940	102
 10950	105
 10960	107
-variableStep chrom=chr3
 10970	107
 10980	101
 10990	98
@@ -648,7 +637,6 @@ variableStep chrom=chr3
 11730	178
 11740	176
 11750	173
-variableStep chrom=chr3
 11760	165
 11770	161
 11780	152
@@ -767,7 +755,6 @@ variableStep chrom=chr3
 12910	119
 12920	116
 12930	114
-variableStep chrom=chr3
 12940	112
 12950	111
 12960	112
@@ -886,7 +873,6 @@ variableStep chrom=chr3
 14090	193
 14100	193
 14110	177
-variableStep chrom=chr3
 14120	167
 14130	154
 14140	144
@@ -955,7 +941,6 @@ variableStep chrom=chr3
 14770	94
 14780	93
 14790	91
-variableStep chrom=chr4
 14800	92
 14810	92
 14820	94
@@ -1019,7 +1004,6 @@ variableStep chrom=chr4
 15400	100
 15410	93
 15420	92
-variableStep chrom=chr4
 15430	100
 15440	104
 15450	110
@@ -1133,7 +1117,6 @@ variableStep chrom=chr4
 16530	97
 16540	93
 16550	88
-variableStep chrom=chr4
 16560	86
 16570	81
 16580	81
@@ -1170,7 +1153,6 @@ variableStep chrom=chr4
 16890	103
 16900	105
 16910	108
-variableStep chrom=chr4
 16920	109
 16930	109
 16940	111
@@ -1255,7 +1237,6 @@ variableStep chrom=chr4
 17730	130
 17740	135
 17750	130
-variableStep chrom=chr4
 17760	127
 17770	121
 17780	119
@@ -1413,7 +1394,6 @@ variableStep chrom=chr4
 19300	109
 19310	111
 19320	117
-variableStep chrom=chr4
 19330	127
 19340	131
 19350	134
@@ -1486,7 +1466,6 @@ variableStep chrom=chr4
 20020	162
 20030	156
 20040	156
-variableStep chrom=chr4
 20050	165
 20060	169
 20070	173
