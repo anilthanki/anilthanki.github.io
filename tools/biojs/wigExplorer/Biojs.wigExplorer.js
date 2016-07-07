@@ -425,10 +425,10 @@ Biojs.wigExplorer = Biojs.extend(
             if (id.indexOf(" ")) {
                 id = self.opt.dataSet.split(" ")[0]
             }
-            var updater_html = '<div id = ' + id + ' class="ui-button ui-widget ui-corner-all ui-button-text-only zoomin" ><span title="Zoom In" class="ui-button ui-icon ui-icon-zoomin"></span></div>' +
-                '<div id = ' + id + ' class="ui-button ui-widget ui-corner-all ui-button-text-only zoomout"  ><span title="Zoom Out" class="ui-button ui-icon ui-icon-zoomout"></span></div>' +
-                '<div id = ' + id + ' class="ui-button ui-widget ui-corner-all ui-button-text-only left"  ><span title="Left" class="ui-button ui-icon ui-icon-arrowthick-1-w"></span></div>' +
-                '<div id = ' + id + ' class="ui-button ui-widget ui-corner-all ui-button-text-only right"  ><span title="Right" class="ui-button ui-icon ui-icon-arrowthick-1-e"></span></div>';
+            var updater_html = '<button id = ' + id + ' class="zoomin" >+</button>' +
+                '<button id = ' + id + ' class="zoomout"  >-</button>' +
+                '<button id = ' + id + ' class="left"  ><</button>' +
+                '<button id = ' + id + ' class="right"  >></button>';
 
             jQuery(slider_div).html("")
             this._updateSelector = jQuery(updater_html).appendTo(slider_div);
