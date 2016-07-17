@@ -48,7 +48,23 @@
 		<script src="js/html5shiv.js"></script>
 		<script src="js/respond.min.js"></script>
 		<![endif]-->
-
+    <script type="text/javascript">
+        //<![CDATA[
+        function _event(person) {
+            if (person == 'bride') {
+                document.getElementById(person).className = "col-sm-8"
+                document.getElementById("groom").className = "col-sm-2 unfocus"
+                document.getElementsByClassName("btn-bride")[0].style.width = "150px"
+                document.getElementsByClassName("btn-groom")[0].style.width = "110px"
+            } else if (person == 'groom') {
+                document.getElementById(person).className = "col-sm-8"
+                document.getElementById("bride").className = "col-sm-2 unfocus"
+                document.getElementsByClassName("btn-groom")[0].style.width = "150px"
+                document.getElementsByClassName("btn-bride")[0].style.width = "110px"
+            }
+        }
+        //]]>
+    </script>
 
 </head>
 
@@ -227,76 +243,200 @@
                     <h2>Events &amp; Parties</h2>
                     <p><span></span><i class="fa fa-heart"></i><span></span>
                     </p>
+                    <ul class="version-btn-list clearfix">
+                        <li><a title="16000mAh" class="btn btn-orange btn-groom" onclick=
+                                "_event('groom');">Groom</a></li>
+
+                        <li><a title="5000mAh" class="btn btn-orange btn-bride" onclick=
+                                "_event('bride')">Bride</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="row">
 
-                <table width="100%" border="0">
-                    <tbody>
+                <div id="groom" class="col-sm-6 heading">
+                    <h2>Groom Side Events</h2>
 
+                    <table width="100%" border="0">
+                        <tbody>
                         <tr>
                             <td>
-
-
-                                <h5>Engagement - Ring Ceremony </h5>
+                                <h5>Engagement - Ring Ceremony</h5>
                             </td>
+
                             <td>
-                                <h6>January 26th, 2017<br>
-                                                        <br>5:00 - 7:00 PM</h6>
-                                <p>Shri Bardai Brahman Samaj Recreation Hall, Chhaya,
-                                    <br>Porbandar, Gujarat, India</p>
-                                <p>If you need any help getting there please let us know.
-                                </p>
+                                <h6>January 26th, 2017<br/>
+                                    <br/>
+                                    5:00 - 7:00 PM</h6>
+
+                                <p>Shri Bardai Brahman Samaj Recreation Hall, Chhaya,<br/>
+                                    Porbandar, Gujarat, India</p>
+
+                                <p>If you need any help getting there please let us know.</p>
                             </td>
                         </tr>
 
                         <tr>
                             <td>
-
-
                                 <h5>Haldi, and Sangeet (Anil)</h5>
                             </td>
+
                             <td>
-                                <h6>January 27th, 2017<br>
-                                                        <br>5:00 - 7:00 PM</h6>
-                                <p>Shri Bardai Brahman Samaj Recreation Hall, Chhaya,
-                                    <br>Porbandar, Gujarat, India</p>
-                                <p>If you need any help getting there please let us know.
-                                </p>
+                                <h6>January 27th, 2017<br/>
+                                    <br/>
+                                    5:00 - 7:00 PM</h6>
+
+                                <p>Shri Bardai Brahman Samaj Recreation Hall, Chhaya,<br/>
+                                    Porbandar, Gujarat, India</p>
+
+                                <p>If you need any help getting there please let us know.</p>
                             </td>
                         </tr>
+
                         <tr>
                             <td>
-
-
-                                <h5>Haldi, and Sangeet (Vaishali)</h5>
-                            </td>
-                            <td>
-
-                                <h6>January 28th, 2017<br>
-                                                        <br>5:00 - 7:00 PM</h6>
-                                <p>Jundala Jin Press, Nr.ambama Temple,aryanagar,
-                                    <br>Porbandar-360575</p>
-                                <p>If you need any help getting there please let us know.
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-
-
                                 <h5>Wedding Ceremony</h5>
                             </td>
+
                             <td>
-                                <h6>January 29th, 2017<br>
-                                                        9:00 am - 6:00 PM</h6>
-                                <p>Jundala Jin Press, Nr.ambama Temple,aryanagar,
-                                    <br>Porbandar-360575</p>
-                                <p>If you are invited from Groom's side please contact any family member before hand for more information.</p>
+                                <h6>January 29th, 2017<br/>
+                                    9:00 am - 6:00 PM</h6>
+
+                                <p>Jundala Jin Press, Nr.ambama Temple,aryanagar,<br/>
+                                    Porbandar-360575</p>
+
+                                <p>If you are invited from Groom's side please contact any family member
+                                    before hand for more information.</p>
                             </td>
                         </tr>
-                    </tbody>
-                </table>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div id="bride" class="col-sm-6 heading">
+                    <h2>Bride Side Events</h2>
+
+                    <table width="100%" border="0">
+                        <tbody>
+                        <tr>
+                            <td>
+                                <h5>Engagement - Ring Ceremony</h5>
+                            </td>
+
+                            <td>
+                                <h6>January 26th, 2017<br/>
+                                    <br/>
+                                    5:00 - 7:00 PM</h6>
+
+                                <p>Shri Bardai Brahman Samaj Recreation Hall, Chhaya,<br/>
+                                    Porbandar, Gujarat, India</p>
+
+                                <p>If you need any help getting there please let us know.</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <h5>Haldi, and Sangeet (Vaishali)</h5>
+                            </td>
+
+                            <td>
+                                <h6>January 28th, 2017<br/>
+                                    <br/>
+                                    5:00 - 7:00 PM</h6>
+
+                                <p>Jundala Jin Press, Nr.ambama Temple,aryanagar,<br/>
+                                    Porbandar-360575</p>
+
+                                <p>If you need any help getting there please let us know.</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <h5>Wedding Ceremony</h5>
+                            </td>
+
+                            <td>
+                                <h6>January 29th, 2017<br/>
+                                    9:00 am - 6:00 PM</h6>
+
+                                <p>Jundala Jin Press, Nr.ambama Temple,aryanagar,<br/>
+                                    Porbandar-360575</p>
+
+                                <p>If you are invited from Groom's side please contact any family member
+                                    before hand for more information.</p>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--<table width="100%" border="0">-->
+                    <!--<tbody>-->
+
+                        <!--<tr>-->
+                            <!--<td>-->
+
+
+                                <!--<h5>Engagement - Ring Ceremony </h5>-->
+                            <!--</td>-->
+                            <!--<td>-->
+                                <!--<h6>January 26th, 2017<br>-->
+                                                        <!--<br>5:00 - 7:00 PM</h6>-->
+                                <!--<p>Shri Bardai Brahman Samaj Recreation Hall, Chhaya,-->
+                                    <!--<br>Porbandar, Gujarat, India</p>-->
+                                <!--<p>If you need any help getting there please let us know.-->
+                                <!--</p>-->
+                            <!--</td>-->
+                        <!--</tr>-->
+
+                        <!--<tr>-->
+                            <!--<td>-->
+
+
+                                <!--<h5>Haldi, and Sangeet (Anil)</h5>-->
+                            <!--</td>-->
+                            <!--<td>-->
+                                <!--<h6>January 27th, 2017<br>-->
+                                                        <!--<br>5:00 - 7:00 PM</h6>-->
+                                <!--<p>Shri Bardai Brahman Samaj Recreation Hall, Chhaya,-->
+                                    <!--<br>Porbandar, Gujarat, India</p>-->
+                                <!--<p>If you need any help getting there please let us know.-->
+                                <!--</p>-->
+                            <!--</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                            <!--<td>-->
+
+
+                                <!--<h5>Haldi, and Sangeet (Vaishali)</h5>-->
+                            <!--</td>-->
+                            <!--<td>-->
+
+                                <!--<h6>January 28th, 2017<br>-->
+                                                        <!--<br>5:00 - 7:00 PM</h6>-->
+                                <!--<p>Jundala Jin Press, Nr.ambama Temple,aryanagar,-->
+                                    <!--<br>Porbandar-360575</p>-->
+                                <!--<p>If you need any help getting there please let us know.-->
+                                <!--</p>-->
+                            <!--</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                            <!--<td>-->
+
+
+                                <!--<h5>Wedding Ceremony</h5>-->
+                            <!--</td>-->
+                            <!--<td>-->
+                                <!--<h6>January 29th, 2017<br>-->
+                                                        <!--9:00 am - 6:00 PM</h6>-->
+                                <!--<p>Jundala Jin Press, Nr.ambama Temple,aryanagar,-->
+                                    <!--<br>Porbandar-360575</p>-->
+                                <!--<p>If you are invited from Groom's side please contact any family member before hand for more information.</p>-->
+                            <!--</td>-->
+                        <!--</tr>-->
+                    <!--</tbody>-->
+                <!--</table>-->
             </div>
         </div>
         </div>

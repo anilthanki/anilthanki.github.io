@@ -674,3 +674,109 @@ footer {
 	}
 
 }
+#events ul{
+	list-style-image: none;
+	list-style-position: outside;
+	display: inline-block;
+}
+
+#events li{
+	display: inline-block;
+}
+
+#events ul, li, dl, dt, dd {
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+}
+
+#events .dianyuan-index-box .version-btn-list .btn-5000 {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	width: 138px;
+}
+#events .dianyuan-index-box .version-btn-list .btn {
+	border-right-color: gray;
+	border-right-style: solid;
+	border-right-width: 1px;
+}
+#events .btn-orange {
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: lightgray;
+	background-image: none;
+	background-origin: padding-box;
+	background-position: 0 0;
+	background-repeat: repeat;
+	background-size: auto auto;
+	border-bottom-color: gray;
+	border-left-color: gray;
+	border-top-color: gray;
+	color: #fff;
+}
+#events .btn {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	height: 38px;
+	line-height: 38px;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	text-align: center;
+	transition-delay: 0s;
+	transition-duration: 0.2s;
+	transition-property: all;
+	transition-timing-function: ease;
+}
+#events a {
+	text-decoration-color: -moz-use-text-color;
+	text-decoration-line: none;
+	text-decoration-style: solid;
+}
+
+#events .btn-groom{
+	border-bottom-left-radius: 18px;
+	border-top-left-radius: 18px;
+	width: 110px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-color: gray;
+}
+
+
+#events .btn-bride {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 18px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 18px;
+	width: 110px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-color: gray;
+}
+
+.unfocus{
+	opacity: 0.1;
+}
