@@ -674,7 +674,6 @@ footer {
 	}
 
 }
-
 #events ul{
 	list-style-image: none;
 	list-style-position: outside;
@@ -780,4 +779,5 @@ footer {
 
 .unfocus{
 	opacity: 0.1;
+	height: 100px;
 }
