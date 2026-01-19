@@ -113,3 +113,72 @@ a {
   color: #BD5D38; }
   a:hover, a:focus, a:active {
     color: #824027; }
+
+/* Project Cards Styling */
+.project-card {
+  padding: 1.5rem;
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.project-thumbnail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.project-thumbnail img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.project-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 2rem;
+}
+
+.project-card h3 {
+  color: #343a40;
+  font-size: 2rem;
+}
+
+.project-buttons .btn {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+}
+
+.btn-primary {
+  background-color: #BD5D38;
+  border-color: #BD5D38;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #824027;
+  border-color: #824027;
+}
+
+.btn-secondary {
+  background-color: #495057;
+  border-color: #495057;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+  background-color: #343a40;
+  border-color: #343a40;
+}
